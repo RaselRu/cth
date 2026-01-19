@@ -1,0 +1,13 @@
+{
+  "name": "cth-static",
+  "version": "1.0.0",
+  "description": "Static version of CTH project for GitHub Pages",
+  "private": true,
+  "homepage": "https://raselru.github.io/cth",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
