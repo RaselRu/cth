@@ -1,0 +1,25 @@
+{
+  "name": "Community Tokens Hub",
+  "short_name": "CTH",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1e2327",
+  "theme_color": "#1e2327",
+  "description": "CTH — PWA для TikTok-сообщества: токены, уровни, коллекции.",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

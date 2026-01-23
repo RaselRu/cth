@@ -1,20 +1,37 @@
-# CTH - Static Version
+# Community Tokens Hub (CTH) — PWA MVP
 
-This is a static version of the CTH (Community Tokens Hub) project, designed to work on GitHub Pages.
+Next.js + Supabase powered MVP for the Community Tokens Hub. The UI is rebuilt
+with Tailwind + Framer Motion and includes the core pages: registration,
+dashboard, collection, leaderboard, and Kaspi QR top-up.
 
-## About
+## ✅ What’s included
 
-This static version preserves the design and basic structure of the original PHP application but removes all server-side functionality:
+- PWA-ready layout + manifest
+- Dark gradient + glassmorphism UI
+- TikTok registration flow stub (OCR + verification hooks)
+- Dashboard with XP, balance, quests, and stickers
+- Kaspi QR top-up screen
+- Static leaderboard + collection grid
 
-- No database connection
-- No user registration/login
-- No real transactions
-- All data is mock/static
+## 🧩 Env configuration
 
-## Deployment
+Copy `.env.example` to `.env.local` and fill Supabase/worker keys:
 
-The site is deployed to GitHub Pages at: https://raselru.github.io/cth
+```bash
+cp .env.example .env.local
+```
 
-## Original Project
+## 🧪 Local development
 
-The original PHP version with full functionality is available in the same repository but requires PHP/MySQL hosting to run properly.
+```bash
+npm install
+npm run dev
+```
+
+## 🚀 GitHub Pages deployment
+
+```bash
+./deploy.sh
+```
+
+This builds a static export into `out/` and publishes it to GitHub Pages.
