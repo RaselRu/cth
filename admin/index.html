@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Админка — cth</title>
+  <style>
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;max-width:780px;margin:40px auto;padding:20px;color:#0f172a}
+    .card{border:1px solid #e6edf3;border-radius:12px;padding:20px;background:#fff}
+    h1{font-size:28px;margin:0 0 8px}
+    p{color:#334155}
+    .actions{margin-top:18px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:8px;text-decoration:none;color:#fff;background:#0369a1}
+    .btn.alt{background:#0ea5a4}
+    .note{margin-top:12px;color:#475569;font-size:14px}
+    .warn{color:#92400e;background:#fff7ed;padding:10px;border-radius:8px;margin-top:12px}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Админка проекта cth</h1>
+    <p>Добро пожаловать в упрощённую админ‑панель. Отсюда вы как администратор репозитория можете пригласить первого участника в репозиторий.</p>
+
+    <div class="actions">
+      <a class="btn" href="https://github.com/RaselRu/cth/settings/access" target="_blank" rel="noopener">Открыть Manage access (пригласить участника)</a>
+      <a class="btn alt" href="https://github.com/RaselRu/cth/settings/collaboration" target="_blank" rel="noopener" style="margin-left:10px">Открыть Collaborators (если есть)</a>
+    </div>
+
+    <div class="note">
+      <strong>Инструкция:</strong>
+      <ol>
+        <li>Нажмите «Открыть Manage access» — откроется страница настроек доступа к репозиторию на GitHub.</li>
+        <li>Нажмите "Invite a collaborator" и введите GitHub‑имя первого участника.</li>
+        <li>Выберите роль (Admin / Maintain / Write / Triage / Read) — для приглашения администратора выберите "Admin".</li>
+        <li>Пользователь получит приглашение и должен его принять.</li>
+      </ol>
+    </div>
+
+    <div class="warn">
+      Важно: эта админка — статическая страница на GitHub Pages и не содержит серверной логики. Приглашение нужно отправлять через интерфейс GitHub (ссылка выше). Если хотите, я могу реализовать безопасный workflow, чтобы приглашения отправлялись прямо из этой страницы — для этого потребуется добавить секретный персональный токен в Secrets репозитория.
+    </div>
+  </div>
+
+  <footer style="max-width:780px;margin:16px auto;color:#64748b;font-size:13px">URL админки: <a href="/cth/admin/">/cth/admin/</a> — полная ссылка: https://RaselRu.github.io/cth/admin/</footer>
+</body>
+</html>
