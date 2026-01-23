@@ -14,6 +14,15 @@ config.php
 # Logs
 *.log
 
+# Next.js
+.next/
+out/
+
+# Env files
+.env
+.env.local
+.env.*.local
+
 # OS generated files
 .DS_Store
 .DS_Store?

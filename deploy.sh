@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# Install gh-pages if not already installed
-npm install gh-pages --save-dev
+set -e
 
-# Deploy to GitHub Pages
-npm run deploy
+export NEXT_PUBLIC_BASE_PATH="/cth"
+export NEXT_PUBLIC_SITE_URL="https://raselru.github.io/cth"
+
+npm install
+npm run build
+
+npx gh-pages -d out --dotfiles
 
 echo "Deployment complete! Your site should be available at https://raselru.github.io/cth"
