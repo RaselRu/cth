@@ -14,11 +14,14 @@ export const metadata: Metadata = {
     "CTH — PWA для TikTok-сообщества: уровни, награды, коллекции и токены.",
   metadataBase: new URL(siteUrl),
   manifest: withBasePath("/manifest.json"),
-  themeColor: "#1e2327",
   icons: {
     icon: withBasePath("/icons/icon-192.svg"),
     apple: withBasePath("/icons/icon-192.svg"),
   },
+};
+
+export const viewport = {
+  themeColor: "#1e2327",
 };
 
 export default function RootLayout({
@@ -30,7 +33,6 @@ export default function RootLayout({
     <html lang="ru">
       <head>
         <link rel="manifest" href={withBasePath("/manifest.json")} />
-        <meta name="theme-color" content="#1e2327" />
         <link rel="apple-touch-icon" href={withBasePath("/icons/icon-192.svg")} />
       </head>
       <body className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white antialiased">
