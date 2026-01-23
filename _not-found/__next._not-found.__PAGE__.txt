@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[22016,["/cth/_next/static/chunks/22286ab6be654094.js","/cth/_next/static/chunks/694836347d1e5ef3.js"],""]
+3:I[97367,["/cth/_next/static/chunks/22286ab6be654094.js","/cth/_next/static/chunks/694836347d1e5ef3.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+0:{"buildId":"g7GD4ggn4O3hsAbx8ISag","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"mx-auto max-w-lg text-center","children":["$","div",null,{"className":"rounded-3xl border border-white/20 bg-white/10 p-10 backdrop-blur-xl","children":[["$","h1",null,{"className":"text-3xl font-semibold","children":"Страница не найдена"}],["$","p",null,{"className":"mt-3 text-sm text-white/70","children":"Проверьте ссылку или вернитесь на главную страницу."}],["$","$L2",null,{"href":"/","className":"mt-6 inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-3 text-sm font-semibold text-white","children":"На главную"}]]}]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"loading":null,"isPartial":false}
+5:null
